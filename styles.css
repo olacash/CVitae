@@ -1,0 +1,72 @@
+
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+.tan1{
+    color: mediumaquamarine;
+}
+span, p{
+    color: mediumaquamarine;
+    margin-left: 15px;
+    font-style: normal;
+}
+
+
+.container1 {
+    float: left;
+   width: 400px;
+    border-style: double;
+    border-width: 5px;
+    border-color: mediumaquamarine;
+    border-style: inset;
+    height: 199%;
+    grid-template-rows: auto 100px;
+    
+    
+    
+  
+    
+}
+
+.jumbotron {
+    float: right;
+    width: 900px;
+    border-style: double;
+    border-width: 5px;
+    border-color: mediumaquamarine;
+    border-style: outset;
+
+    
+}
+h1,h2,h3,h4{
+    color: mediumaquamarine;
+    padding-left: 20px;
+    
+    
+}
+
+
+
+
+.button {
+  background-color: aqua;
+  border: none;
+  color: white;
+  padding: 0.5px;
+    width: 80%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+}
+.button4 {border-radius:10px;}
+    
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding: 5%;
+        
+}
