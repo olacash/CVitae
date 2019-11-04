@@ -70,3 +70,10 @@ h1,h2,h3,h4{
     padding: 5%;
         
 }
+@media(min-width:992px){
+    .jumbotron container1{padding-right:33.3333%;}
+  
+}
+@media(max-width:991px){
+    .jumbotron container1{padding-right:33.3333%;}
+}
