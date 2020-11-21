@@ -70,10 +70,15 @@ h1,h2,h3,h4{
     padding: 5%;
         
 }
-@media(min-width:992px){
-    .jumbotron container1{padding-right:33.3333%;}
-  
+<Style>
+.left, .right {
+Float: left;
+Width: 20%;
 }
-@media(max-width:991px){
-    .jumbotron container1{padding-right:33.3333%;}
+.main {float: left;
+Width: 60%;
 }
+@media screen and (max-width:800px) {
+.left , .main, .right{width:100%}
+}
+</Style>
